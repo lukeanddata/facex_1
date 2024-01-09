@@ -4,6 +4,8 @@
 
 This project delves into Data Science and Machine Learning, focusing on the potential of machine learning in classifying human emotions from facial expressions. While modest in scale, the project extensively explores various models, illuminating the nuances of emotion recognition technology.
 
+// note - This project is first stand-alone project of mine. Facex_1 version will be kept as the 'raw' footprint of its further (potential) evolution.
+
 ## Dataset
 
 ### FER 2013 Dataset
