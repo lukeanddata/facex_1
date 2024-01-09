@@ -35,3 +35,5 @@ While not a primary goal, the project's use of the FER 2013 dataset and the deve
 
 This project is a comprehensive exploration into neural networks for emotion recognition, focusing on understanding the factors influencing model performance. It aims to provide significant insights into emotion AI, going beyond mere accuracy metrics.
 
+<img width="840" alt="image" src="https://github.com/lukeanddata/facex_1/assets/101431694/bf6418a4-0f32-4fcb-ba2e-934ecac9bedd">
+
