@@ -29,6 +29,8 @@ The primary objective of the project is to create models for emotion classificat
 
 While not a primary goal, the project's use of the FER 2013 dataset and the developed models have indirect relevance in academic research, contributing insights to the field of emotion AI.
 
+ # note - This project and its further stages will be later used in master thesis.
+
 ## Conclusion
 
 This project is a comprehensive exploration into neural networks for emotion recognition, focusing on understanding the factors influencing model performance. It aims to provide significant insights into emotion AI, going beyond mere accuracy metrics.
