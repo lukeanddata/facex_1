@@ -37,5 +37,52 @@ While not a primary goal, the project's use of the FER 2013 dataset and the deve
 
 This project is a comprehensive exploration into neural networks for emotion recognition, focusing on understanding the factors influencing model performance. It aims to provide significant insights into emotion AI, going beyond mere accuracy metrics.
 
-<img width="840" alt="image" src="https://github.com/lukeanddata/facex_1/assets/101431694/bf6418a4-0f32-4fcb-ba2e-934ecac9bedd">
+# Final Model Comparison
+
+## Custom CNN Model Performance
+
+- **Strengths**:
+  - Exhibited balanced performance across most classes.
+  - Notable proficiency in recognizing 'happy' (83% precision) and 'surprise' (75% precision).
+
+- **Weaknesses**:
+  - Struggled with 'disgust' and 'fear', potentially due to their similarity to other expressions and ambiguous labeling in the dataset.
+
+- **Overall**:
+  - Achieved an accuracy of 60%, more effective in clear-cut expressions like 'happy', less so in nuanced expressions.
+
+## EfficientNetB0 Model Performance
+
+- **Issue**:
+  - The model did not train correctly, only able to classify 'happy'. Possible misalignment with dataset specifics or training parameters.
+
+- **Result**:
+  - Due to skewed performance, EfficientNetB0 is excluded from the final comparison.
+
+## VGG Model Performance
+
+- **Strengths**:
+  - Performed well in identifying 'happy' (80% precision) and 'surprise' (73% precision).
+  - Showed a good ability to distinguish 'neutral' expressions.
+
+- **Weaknesses**:
+  - Less effective in distinguishing 'sad' from other similar expressions, impacted by label ambiguities.
+
+- **Overall**:
+  - With an overall accuracy of 64%, the VGG model showed balanced performance but faced challenges in subtle or ambiguous categories.
+
+## Final Comparison between Custom CNN and VGG Models
+
+- The **Custom CNN Model** displayed strong recognition of distinct expressions like 'happy' and 'surprise', but faced difficulties in differentiating similar emotions like 'sad' versus 'neutral'.
+- The **VGG Model** showed slightly higher overall accuracy and balance, particularly adept at identifying 'happy', 'surprise', and 'neutral' emotions.
+- Both models demonstrate the complexity in facial expression recognition, particularly with subtle differences and ambiguous labels in datasets like FER2013. **Despite these challenges, VGG slightly outperforms the Custom CNN in overall accuracy and balance.**
+This format uses bullet points, bold text for emphasis, and headings to clearly separate 
+
+VGG Training Graphs + Confusion Matrix + Model Predict on Testset(shuffled, to ensure all labels are predicted visually)
+![__results___28_5](https://github.com/lukeanddata/facex_1/assets/101431694/fcc5b823-43ae-440d-b60e-723033b7c557)
+![__results___30_5](https://github.com/lukeanddata/facex_1/assets/101431694/829023e9-9a41-4210-848a-23d6570a08f5)
+![__results___52_1](https://github.com/lukeanddata/facex_1/assets/101431694/510b2c20-a719-4cef-bea7-1f8039df999b)
+
+
+
 
