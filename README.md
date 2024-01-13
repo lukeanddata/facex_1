@@ -7,8 +7,8 @@ This project delves into Data Science and Machine Learning, focusing on the pote
 // note - This project is first stand-alone project of mine. Facex_1 version will be kept as the 'raw' footprint of its further (potential) evolution.
 
 ## Dataset
-https://www.kaggle.com/datasets/msambare/fer2013
-https://www.kaggle.com/datasets/prilia/fer2013plus-cleaned-augm-balanced
+https://www.kaggle.com/datasets/msambare/fer2013 \
+https://www.kaggle.com/datasets/prilia/fer2013plus-cleaned-augm-balanced \
 https://www.kaggle.com/datasets/shawon10/ckplus
 
 
