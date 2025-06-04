@@ -80,7 +80,7 @@ This project is a comprehensive exploration into neural networks for emotion rec
 - The **Custom CNN Model** displayed strong recognition of distinct expressions like 'happy' and 'surprise', but faced difficulties in differentiating similar emotions like 'sad' versus 'neutral'.
 - The **VGG Model** showed slightly higher overall accuracy and balance, particularly adept at identifying 'happy', 'surprise', and 'neutral' emotions.
 - Both models demonstrate the complexity in facial expression recognition, particularly with subtle differences and ambiguous labels in datasets like FER2013. **Despite these challenges, VGG slightly outperforms the Custom CNN in overall accuracy and balance.**
-This format uses bullet points, bold text for emphasis, and headings to clearly separate 
+
 
 VGG Training Graphs + Confusion Matrix + Model Predict on Testset(shuffled, to ensure all labels are predicted visually)
 ![__results___28_5](https://github.com/lukeanddata/facex_1/assets/101431694/fcc5b823-43ae-440d-b60e-723033b7c557)
